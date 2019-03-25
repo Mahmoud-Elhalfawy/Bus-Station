@@ -21,6 +21,9 @@ public class Main {
     user.setPassword(s.next());
     v.setUser(user);
     System.out.println(v.valid("manager"));
+    
+    
+  System.out.println("bngarb git hub");
             }
     
     
