@@ -14,16 +14,18 @@ public class Main {
 
     public static void main(String args[]) throws IOException{
     	
-    	Person user= new manger();
-    	Validate v=new Validate();
-    	v.load("driver");
-    user.setUsername(s.next());
-    user.setPassword(s.next());
-    v.setUser(user);
-    System.out.println(v.valid("manager"));
+    //	Person user= new manger();
+    	//Validate v=new Validate();
+    	//v.load("driver");
+   // user.setUsername(s.next());
+    //user.setPassword(s.next());
+    //v.setUser(user);
+   // System.out.println(v.valid("manager"));
     
     
   System.out.println("bngarb git hub");
+  tripdb x = new tripdb();
+  x.loadtrip("internal");
             }
     
     

@@ -3,7 +3,11 @@
 public abstract class Trip{
     private String source;
 
-    public String getSource() {
+    public void setSource(String source) {
+		this.source = source;
+	}
+
+	public String getSource() {
         return source;
     }
 
@@ -11,16 +15,40 @@ public abstract class Trip{
         return destination;
     }
 
-    public int getNo_of_stops() {
+    public String getNo_of_stops() {
         return no_of_stops;
     }
 
     private String destination;
-    private int no_of_stops;
+    public void setDestination(String destination) {
+		this.destination = destination;
+	}
 
-    public Trip(String source, String destination, int no_of_stops) {
-        this.source=source;
-        this.destination=destination;
-        this.no_of_stops=no_of_stops;
-    }
+	private String no_of_stops;
+    public void setNo_of_stops(String no_of_stops) {
+		this.no_of_stops = no_of_stops;
+	}
+
+	private String tripTime;
+    public void setTripTime(String tripTime) {
+		this.tripTime = tripTime;
+	}
+
+	private String ticketType;
+    private double tripPrice;
+    
+	public double getTripPrice() {
+		return tripPrice;
+	}
+
+	public String getTicketType() {
+		return ticketType;
+	}
+
+	public String getTripTime() {
+		return tripTime;
+	}
+
+	
+  
 }

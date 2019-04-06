@@ -1,17 +1,31 @@
 //package com.example.android.station;
 
 public class InternalTrip extends Trip implements BuyTicket {
-    String source;
-    String destination;
-    int no_of_stops;
-    private String ticketType;
-    private double tripPrice;
-    public InternalTrip(String source, String destination, int no_of_stops,String ticketType,double tripPrice) {
-        super(source, destination, no_of_stops);
-        this.ticketType=ticketType;
-        this.tripPrice=tripPrice;
-    }
-    @Override
+	  String source=super.getSource();
+	    String destination=super.getDestination();
+	   String no_of_stops=super.getNo_of_stops();
+	    private String ticketType=super.getTicketType();
+	    private double tripPrice=super.getTripPrice();
+	    private String tripTime=super.getTripTime();
+	    
+    
+  
+	public String getTripTime() {
+			return tripTime;
+		}
+
+
+		public void setTripTime(String tripTime) {
+			this.tripTime = tripTime;
+		}
+
+
+	public double getTripPrice() {
+		return tripPrice;
+	}
+
+	
+	@Override
     public void buyMiniBusTicket() {
     //	Vehicle xmini=new MiniBus();
     	 if(ticketType=="round") {
