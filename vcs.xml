@@ -10,8 +10,12 @@
           <option name="url" value="https://github.com/Mahmoud-Elhalfawy/station.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Mahmoud-Elhalfawy/Bus-Station.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\Mahmoud Elhalfawy" />
+    <option name="cloneParentDir" value="D:\" />
   </component>
 </application>
